@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    margin:5px,5px,5px,5px;
+    background-image: url('Back-ground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+.box{
+  position:absolute;
+  width: 30%;
+  height: 78%;
+  left: 32% ;
+  top: 84px;
+  background: #267059;
+  border-radius: 30px;
+  font-size: 8,89%;
+}
+
+.container{
+  position:relative;
+  margin-top: 10%;
+}
+
+input[type=text], select, textarea {
+    width: 60%;
+    font-family: 'Inder';
+    font-style: normal;
+    padding: 12px;
+    border: 1px solid #2C3E50;
+    background-color:#ADBB90;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20%;
+}
+
+input[type=password], select, textarea {
+    width: 60%;
+    font-family: 'Inder';
+    font-style: normal;
+    padding: 12px;
+    border: 1px solid #2C3E50;
+    background-color:#ADBB90;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20%;
+}
+
+label{
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 20%;
+    position: relative;
+    font-family: 'Inder';
+    font-style: normal;
+    color: #B8C243;
+  }
+  
+  input[type=submit] {
+    background-color: #3AAFF0;
+    font-family: 'Inder';
+    font-style:normal;
+    font-size: large;
+    padding: 15px 26px;
+    color: rgb(239, 222, 35);            
+    border-radius: 10px;
+    display: block;
+    margin-top: 3%;
+    margin-left: 40%;
+  }
+
+  h1{
+    margin-left:38%;
+    margin-bottom:10%;
+    margin-top: 24%;
+    font-family: 'Inder';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: rgba(98, 227, 255, 0.9);
+  }
+
+  h2{
+    margin: 5px;
+    font-family: 'Inder';
+    font-style:normal;
+    font-size: small;
+    padding: 15px 26px;
+    color: rgb(245, 245, 245);            
+    display: block;
+    margin-top: 0%;
+    margin-left: 30%;
+    margin-bottom: 4%;
+  }
+
+  h3{
+      font-size: 200%;
+      font-family: "Inder";
+      margin-top: 0%;
+      margin-left: 2%;
+  }
+ 
+
+.img{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 41%;
+}
