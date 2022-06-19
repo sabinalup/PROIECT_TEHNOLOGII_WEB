@@ -1,0 +1,197 @@
+body {
+    width: 100%;
+    background-image: url('Back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+.box{
+  position:absolute;
+  width: 30%;
+  height: fit-content;
+  left: 32% ;
+  border-radius: 30px;
+  background: #267059;
+  font-size: 1vw;
+  bottom: 1px;
+  top: 1%;
+  align-items: center;
+  overflow:hidden;
+}
+
+
+.container{
+  position:relative;
+  margin-top: 5%;
+  font-size: 1vw;
+}
+
+input[type=text], select, textarea {
+    width: 60%;
+    height: 20%;
+    font-family: 'Inder';
+    font-style: normal;
+    font-size: 1vw;
+    border: 1px solid #2C3E50;
+    background-color:#ADBB90;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20%;
+    padding: 3%;
+}
+
+input[id=password], select, textarea {
+    width: 60%;
+    height: 20%;
+    font-family: 'Inder';
+    font-style: normal;
+    font-size: 1vw;
+    border: 1px solid #2C3E50;
+    background-color:#ADBB90;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20%;
+    padding: 3%;
+}
+
+input[id=email], select, textarea {
+    width: 60%;
+    font-size: 1vw;
+    font-family: 'Inder';
+    font-style: normal;
+    padding: 3%;
+    border: 1px solid #2C3E50;
+    background-color:#ADBB90;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20%;
+}
+
+label{
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 20%;
+    position: relative;
+    font-family: 'Inder';
+    font-style: normal;
+    color: #B8C243;
+    font-size: 1vw;
+  }
+  
+  button{
+    background-color: #3AAFF0;
+    font-family: 'Inder';
+    font-style:normal;
+    font-size: 1vw;
+    padding: 15px 26px;
+    color: rgb(239, 222, 35);            
+    border-radius: 10px;
+    display: block;
+    margin-top: 3%;
+    margin-left: 35%;
+    border: none;
+    position: relative;
+    cursor: pointer;
+
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  h1{
+    margin-left:38%;
+    margin-bottom:2.5%;
+    margin-top: 24%;
+    font-family: 'Inder';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: rgba(98, 227, 255, 0.9);
+    font-size: 2vw;
+  }
+
+  h2{
+    margin: 5px;
+    font-family: 'Inder';
+    font-style:normal;
+    font-size: small;
+    padding: 15px 26px;
+    color: rgb(245, 245, 245);            
+    display: block;
+    margin-top: 0%;
+    margin-left: 23%;
+    margin-bottom: 3%;
+  }
+
+  h3{
+      font-size: 200%;
+      font-family: "Inder";
+      margin-top: 0%;
+      margin-left: 2%;
+  }
+ 
+
+.img{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 41%;
+}
+
+@media only screen and (max-width: 770px) {
+  .box {
+    left: 15%;
+    width: 70%;
+    font-size: 2vw;
+    top:10%;
+  }
+  h1{
+    margin-left: 45%;
+    font-size: 3vw;
+  }
+  h2{
+    margin-left: 20%;
+    font-size: 3vw;
+  }
+  button{
+    font-size: 3vw;
+    margin-left: 32%;
+  }
+  label{
+    font-size: 3vw;
+    margin-top: 2%;
+  }
+}
+
+  @media only screen and (min-width: 450px) and ( max-width:580px) {
+    button{
+      margin-left: 35%;
+    }
+    .box {
+      width: 55%;
+      left: 20%;
+    }
+    h2{
+      margin-left: 20%;
+      font-size: 2.5vw;
+    }
+    h1{
+      margin-left: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 580px) and ( max-width:810px) {
+  .box {
+    width: 50%;
+    left: 25%;
+  }
+  h2{
+    margin-left: 22%;
+    font-size: 2vw;
+  }
+  h1{
+    margin-left: 40%;
+  }
+}
