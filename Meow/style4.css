@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  background-image: url('Back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+}
+
+.box{
+  position:absolute;
+  left: 22%;
+  width: 65%;
+  top:0;
+  bottom:0;
+  font-family: 'Inder';
+  font-style: normal;
+  align-items: center;
+  height: fit-content;
+  background-color: rgba(0,0,0,.5);
+  font-size: 2.5vw;
+}
+
+.description{
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+.info{
+  display: grid;
+}
+
+h1{
+  margin-left: 10%;
+  font-family: 'Inder';
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #cbc7b5;
+}
+
+p{
+  margin-left: 10%;
+  font-family: 'Inder';
+  color: #b2cfc6;
+}
+
+.animal{
+  border-radius: 30px;
+  margin-top:15%;
+  height: 50%;
+  width: 40%;
+} 
+
+
+h2{
+  margin-left: 15%;
+  font-family: 'Inder';
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #cbc7b5;
+}
+
+.general{
+  justify-content: space-evenly;
+  margin-right: 10%;
+}
+
+
+ @media only screen and (max-width: 600px) {
+  .box{
+    font-size: 4vw;
+    left: 17%;
+  }
+
+  .description{
+    flex-direction: column-reverse;
+
+  }
+
+  .info{
+    margin-left: 10%;
+  }
+
+  .animal{
+    width:70%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+
+  .general{
+    margin-right: 10%;
+  }
+
+  h1{
+    margin-left: 17%;
+
+  }
+
+
+
+}
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
